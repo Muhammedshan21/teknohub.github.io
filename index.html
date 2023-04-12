@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <table>
+        <td id="logo">
+          <div id="main-logo">
+            <span class="logo">
+              <a
+                href="index.html"
+                style="color: rgb(140, 0, 255); text-decoration: none"
+                >TeknoHUB</a
+              >
+            </span>
+          </div>
+        </td>
+        <td style="width: 100%"></td>
+        <td>
+          <div id="main-nav">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="overlay-content">
+                <a href="index.html">Ana Sayfa</a>
+                <br />
+                <a href="contacs.html">İletişim</a>
+                <br />
+                <a href="about.html">Hakkımda</a>
+                <br />
+                <a href="blog.html">Blog</a>
+                <br />
+                <a href="my-projects.html">Çalışmalarım</a>
+              </div>
+            </div>
+
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;
+            </span>
+
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+              }
+
+              function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+              }
+            </script>
+          </div>
+        </td>
+      </table>
+    </header>
+    <section id="welcome" style="text-align: center; display: block">
+      <hr />
+      <br />
+      <span class="welcome">TeknoHUB.net</span><span>'e Hoş Geldiniz </span>
+    </section>
+  </body>
+</html>
