@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloglar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <table>
+        <td id="logo">
+          <div id="main-logo">
+            <span class="logo">
+              <a
+                href="index.html"
+                style="color: rgb(140, 0, 255); text-decoration: none"
+                >ShanTeknoloji</a
+              >
+            </span>
+          </div>
+        </td>
+        <td style="width: 100%"></td>
+        <td>
+          <div id="main-nav">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="overlay-content">
+                <a href="../../../index.html">Ana Sayfa</a>
+                <br />
+                <a href="../../../contacs.html">İletişim</a>
+                <br />
+                <a href="../../../about.html">Hakkımda</a>
+                <br />
+                <a href="../../../blog.html">Blog</a>
+                <br />
+                <a href="../../../my-projects.html">Çalışmalarım</a>
+              </div>
+            </div>
+
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;
+            </span>
+
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+              }
+
+              function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+              }
+            </script>
+          </div>
+        </td>
+      </table>
+    </header>
+    <hr />
+    <div id="content">
+      <table id="what-html">
+        <tr>
+          <td>
+            <img src="images/html-logo.jpg" alt="Html Logosu" width="45px" />
+          </td>
+          <td>
+            <h3>Html Nedir?</h3>
+            <br />
+            <a href="blogs/what-html.html" title="Daha Fazla">
+              Hiper Metin İşaretleme Dili
+              <br />
+              (HTML, İngilizce HyperText Markup Language kelimelerinin baş
+              harflerinin kısaltılmasıdır)</a
+            >
+          </td>
+          <td style="width: 28%"></td>
+          <td>
+            HTML, bir web sitesine metin, tablo, form vb. içeriklerin
+            eklenmesini ve bunların anlamlı bir şekilde birbirine bağlanarak
+            çalışmasını sağlıyor. Bir web sitesi tasarımı, HTML kodlarından
+            oluşuyor.
+          </td>
+        </tr>
+      </table>
+
+      <br /><br /><br />
+
+      <table id="what-css">
+        <tr>
+          <td>
+            <img src="images/css-logo.jpg" alt="Css Logosu" width="45px" />
+          </td>
+          <td>
+            <h3>Css Nedir?</h3>
+            <br />
+            <a href="blogs/what-css.html" title="Daha Fazla"
+              >Cascading Style Sheets</a
+            >
+          </td>
+          <td style="width: 41%"></td>
+          <td>
+            CSS, Renkler, ara yüz düzenlemeleri, fontlar ve bunlara bağlı birçok
+            görsel tasarım unsurunu modifiye etmeye yarıyor.
+          </td>
+        </tr>
+      </table>
+
+      <br /><br /><br />
+
+      <table id="what-js">
+        <tr>
+          <td>
+            <img
+              src="images/js-logo.jpg"
+              alt="JavaScript Logosu"
+              width="45px"
+            />
+          </td>
+          <td>
+            <h3>JS Nedir?</h3>
+            <br />
+            <a href="blogs/what-js.html" title="Daha Fazla">
+              JavaScript, bir programlama dilidir.
+            </a>
+          </td>
+          <td style="width: 41%"></td>
+          <td>
+            JavaScript, geliştiricilerin etkileşimli web sayfaları oluşturmak
+            için kullandığı bir programlama dilidir. JavaScript işlevleri,
+            sosyal medya akışlarını yenilemekten animasyonlar ve etkileşimli
+            haritalar göstermeye kadar, bir web sitesi kullanıcısının deneyimini
+            iyileştirebilir.
+          </td>
+        </tr>
+      </table>
+
+      <br /><br /><br />
+
+      <table id="what-asp">
+        <tr>
+          <td>
+            <img src="images/php-logo.jpg" alt="ASP Logosu" width="45px" />
+          </td>
+          <td>
+            <h3>PHP Nedir?</h3>
+            <br />
+            <a
+              style="margin-left: 8%"
+              href="blogs/what-php.html"
+              title="Daha Fazla"
+            >
+              Hypertext Preprocessor
+            </a>
+          </td>
+          <td style="width: 42%"></td>
+          <td>
+            veritabanı bağlantılı uygulamalar, dinamik olarak oluşan grafikler,
+            kullanıcıya, tarayıcıya ve tarihe göre özel durumlar veya içerikler,
+            anketler, tartışma forumları elektronik ticaret uygulamaları web
+            tabanlı e-posta uygulamaları XML verilerini okuma ve oluşturma.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

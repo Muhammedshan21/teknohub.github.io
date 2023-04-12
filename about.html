@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hakkımda</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      span {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <table>
+        <td id="logo">
+          <div id="main-logo">
+            <span class="logo">
+              <a
+                href="index.html"
+                style="color: rgb(140, 0, 255); text-decoration: none"
+                >TeknoHUB</a
+              >
+            </span>
+          </div>
+        </td>
+        <td style="width: 100%"></td>
+        <td>
+          <div id="main-nav">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="overlay-content">
+                <a href="index.html">Ana Sayfa</a>
+                <br />
+                <a href="contacs.html">İletişim</a>
+                <br />
+                <a href="about.html">Hakkımda</a>
+                <br />
+                <a href="blog.html">Blog</a>
+                <br />
+                <a href="my-projects.html">Çalışmalarım</a>
+              </div>
+            </div>
+
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;
+            </span>
+
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+              }
+
+              function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+              }
+            </script>
+          </div>
+        </td>
+      </table>
+    </header>
+
+    <br /><br />
+
+    <section class="about-me-header">
+      <h2>Ben Kimim?</h2>
+
+      <section class="about-me">
+        Ben Muhammed Şan 24 mart 2009 doğumluyum Diyarbakır'da doğup büyüdüm. 10
+        yaşına kadar hayatım eğlenmekle falan geçti 11-12 yaşlarında
+        <span><b>Siber Güvenlik </b></span> eğitimi aldım kendimi siber güvenlik
+        alanında geliştirdikten sonra <span><b>Unreal Engine </b></span>ile oyun
+        yapma eğitimi aldım tabi sonra ünity'ninde eğitimlerini aldım ama unity
+        bana karmaşık geldiği için <span><b>Unreal Engine</b></span> ile devam
+        ettim orta düzeyde oyun yapabildikten sonra oyun yapma işindende
+        sıkıldım ve bu sefer <span><b>Web Tasarım </b></span> ve
+        <span><b> Web Geliştirme</b></span> alanlarında eğitim almaya başladım.
+
+        <br /><br />
+      </section>
+    </section>
+  </body>
+</html>

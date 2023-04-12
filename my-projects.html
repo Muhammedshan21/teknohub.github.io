@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projelerim</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <table>
+        <td id="logo">
+          <div id="main-logo">
+            <span class="logo">
+              <a
+                href="index.html"
+                style="color: rgb(140, 0, 255); text-decoration: none"
+                >TeknoHUB</a
+              >
+            </span>
+          </div>
+        </td>
+        <td style="width: 100%"></td>
+        <td>
+          <div id="main-nav">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="overlay-content">
+                <a href="index.html">Ana Sayfa</a>
+                <br />
+                <a href="contacs.html">İletişim</a>
+                <br />
+                <a href="about.html">Hakkımda</a>
+                <br />
+                <a href="blog.html">Blog</a>
+                <br />
+                <a href="my-projects.html">Çalışmalarım</a>
+              </div>
+            </div>
+
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;
+            </span>
+
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+              }
+
+              function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+              }
+            </script>
+          </div>
+        </td>
+      </table>
+    </header>
+    <hr />
+    <div id="content">
+      <table id="my-book">
+        <tr>
+          <td>
+            <img
+              src="my-projects/my-book-file/images/book.jpg"
+              alt="Kitabımın Logosu"
+              width="45px"
+            />
+          </td>
+          <td>
+            <h3>Pişmanlık</h3>
+            <br />
+            <a
+              href="https://drive.google.com/u/0/uc?id=1TTcssriIHkg_QQCi1u2V0XRPKnFn4yXc&export=download"
+              title="Kitabı İndir"
+              download="Muhammed Şan | Pişmanlık"
+            >
+              <br />
+              Kıtabımı indirip bakmak için tıklayınız.
+            </a>
+          </td>
+          <td style="width: 28%"></td>
+          <td>
+            Pişmanlık ilk kitabım ve herhalde en çok uğraştığım kitaplarımdan
+            biride Pişmanlık'tır. Aslında belkide ilk kitabım olduğu için
+            zorlandım ama yinede severek yazdığım bir eserim.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
